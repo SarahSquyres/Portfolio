@@ -203,3 +203,8 @@ a {
     background-repeat: no-repeat;
     background-size: 100%; 
 }
+
+footer {
+    display: inline-block;
+    text-align: center;
+}

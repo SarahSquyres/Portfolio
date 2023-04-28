@@ -2,9 +2,9 @@
 
 ## Challenge Goals
 
-This challenge illustrates the importance of semantic HTML, a logical code structure, and accessibility. 
+This challenge illustrates the importance of a responsive layout.
 
-In this challenge, a marketing agency provides code that needs to be modified so the codebase follows accessibility standards and is optimized for search engines. The code is redundant and also lacks semantic HTML elements and accessible alt attributes.
+In this challenge, an employer wants to view a potential employee's portfolio.
 
 
 ## Tools Used
@@ -17,14 +17,10 @@ In this challenge, a marketing agency provides code that needs to be modified so
 
 ## Repairs and Modifications
 
-* Repaired broken links
-* Removed redundancies in CSS code
-* Added helpful comments to CSS and HTML files
-* Added a unique title
-* Site now meets accessibility standards
-* Code contains semantic HTML elements
-* Title is unique and descriptive
-
+* Included photos
+* Added navigation links to jump to sections within the page
+* Provided links to deployed applications
+* Layout is responsive and adaptive
 
 ## CSS Organization
 
@@ -33,7 +29,10 @@ The CSS mirrors the visual format of the page, from top to bottom, starting with
 
 ## What I Learned
 
-I learned how to utilize and navigate fundamental coding tools such as VSS, Git and Git Hub.  I also learned how to discuss and develop solutions with fellow coders.
+I learned how to build a resopnsive webpage.  I also learned how to work with images and flexbox.
 
 
 ## Link and Screenshot
+
+[Portfolio Website Link](https://sarahsquyres.github.io/Portfolio/ ) 
+![The Horiseon webpage includes a navigation bar, a header image, and cards with text and images at the bottom of the page.](./Assets/portfolio-full-screenshot.PNG)
