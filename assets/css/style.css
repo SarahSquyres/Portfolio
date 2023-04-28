@@ -28,12 +28,28 @@ h1 {
 }
 
 /* list-style-type to remove list decoration */
+
 ul {
+    list-style-type: none;
+    display: flex;
+    
+    justify-content: flex-end;
+    background-color: bisque;
+    text-decoration: none;
+}
+@media screen and (max-width: 600px) {
+    ul {
+      flex-direction: column;
+    }
+  }
+
+h2 {
     list-style-type: none;
     display: flex;
     justify-content: flex-end;
     background-color: bisque;
     text-decoration: none;
+    width: 100%;  
 }
 
 li {
@@ -45,24 +61,28 @@ li {
 
 main {
     display: flex;
-    align-items: flex-start;
-    width: 90%;
-    margin: 1% auto;
     
+    width: 100%;
+    margin: 0;
 }
+
+@media screen and (max-width: 1000px) {
+    main {
+      flex-direction: column;
+    }
+  }
 
 .background-image-container {
-    width: 50%;
-}
-
-.background-image {
     width: 100%;
 }
 
-.content-box{
+
+
+.content-box, .background-image{
     display: flex;
     flex-direction: column;
-    width: 69%;
+    width: 100%;
+    position: center;
 }
 
 h2 {
@@ -74,6 +94,10 @@ h2 {
 
 .about-me-section {
     width: 100%;
+    background-image: url(../images/blan.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%; 
 }
 
 .work-section {
@@ -96,15 +120,25 @@ h2 {
 
 .miniPic-structure {
     background-image: url("../images/structure.PNG");
-    background-position: bottom;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 50%;
+    opacity: .8;
+    background-color: #375d6f;
+}
+
+.miniPic-street {
+    background-image: url("../images/ReddF.jpg");
+    background-position: center;
     background-repeat: no-repeat;
     background-size: 100%;
     width: 50%;
     opacity: .8;
 }
 
-.miniPic-street {
-    background-image: url("../images/ReddF.jpg");
+.miniPic-earth {
+    background-image: url("../images/clay-banks.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: 100%;
@@ -130,6 +164,8 @@ span {
 /* Photo by Gustavo Espindola on Unsplash */
 /* Photo by Redd F on Unsplash */
 /* Photo by Clay Banks on Unsplash */
+/* Photo by Marjan Blan on Unsplash */
+/* Photo by Pavan Trikutam on Unsplash */
 
 p {
     margin-left: 0;
@@ -142,7 +178,7 @@ p {
 
 .prework-container {
     background-image: url("../images/pexels-pixabay-33085.jpg");
-    background-color: rgb(49, 11, 172);
+    background-color: rgb(181, 169, 153);
     background-position: center;
     background-repeat: no-repeat;
     background-size: 100%; 
@@ -164,3 +200,9 @@ a {
     width: 100%;
 }
 
+.contact {
+    background-image: url("../images/pavan.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%; 
+}
