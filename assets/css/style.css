@@ -18,6 +18,7 @@ body {
     min-height: 100vh;
     justify-content: flex-start;
     text-decoration: none;
+    background-color:rgb(146, 146, 161);
 }
 
 h1 {
@@ -37,7 +38,7 @@ ul {
     background-color: bisque;
     text-decoration: none;
 }
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 970px) {
     ul {
       flex-direction: column;
     }
@@ -66,7 +67,7 @@ main {
     margin: 0;
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1407px) {
     main {
       flex-direction: column;
     }
@@ -82,13 +83,12 @@ main {
     display: flex;
     flex-direction: column;
     width: 100%;
-    position: center;
 }
 
 h2 {
     font-size: 3vw;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    border-right: blue solid;
+    color: rgb(87, 119, 144);
     display: inline-block;
 }
 
@@ -146,13 +146,7 @@ h2 {
     opacity: .8;
 }
 
-span {
-    background-color: antiquewhite;
-    font-size: 1.5vw;
-    margin-left: 20px;
-    color: rgb(87, 119, 144);
-    font-weight: bold;
-}
+
 
 
 .smallContainer{
@@ -172,7 +166,10 @@ p {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     display: block;
     height: 200px;
-    width: 400px;
+    width: 100%;
+    font-size: 1.5vw;
+    color:aliceblue;
+    font-weight: bold;
     
 }
 
