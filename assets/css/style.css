@@ -130,10 +130,11 @@ h2 {
 }
 
 .miniPic-street {
-    background-image: url("../images/ReddF.jpg");
+    background-image: url("../images/GSDone.PNG");
     background-position: center;
     background-repeat: no-repeat;
     background-size: 100%;
+    background-color: black;
     width: 50%;
     opacity: .8;
 }
