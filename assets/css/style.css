@@ -8,7 +8,7 @@ header {
     padding: 20px;
     padding-left: 0;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    /* background-color: #2a607c; */
+    background-color: #2a607c;
     color: #190808;
 }
 
@@ -18,14 +18,14 @@ body {
     min-height: 100vh;
     justify-content: flex-start;
     text-decoration: none;
-    /* background-color:rgb(146, 146, 161); */
+    background-color:rgb(146, 146, 161);
 }
 
 h1 {
     font-size: 4vw;
     width: 29%;
     padding-left: 20px;
-    /* background: rgb(188, 160, 107); */
+    background: rgb(188, 160, 107);
 }
 
 /* list-style-type to remove list decoration */
@@ -34,7 +34,7 @@ ul {
     list-style-type: none;
     display: flex;
     justify-content: flex-end;
-    /* background-color: bisque; */
+    background-color: bisque;
     text-decoration: none;
 }
 @media screen and (max-width: 970px) {
@@ -47,7 +47,7 @@ h2 {
     list-style-type: none;
     display: flex;
     justify-content: flex-end;
-    /* background-color: bisque; */
+    background-color: bisque;
     text-decoration: none;
     width: 100%;  
 }
@@ -93,7 +93,7 @@ h2 {
 
 .about-me-section {
     width: 100%;
-    /* background-image: url("https://i.ibb.co/5xYxL8K/blan.jpg"); */
+    background-image: url("https://i.ibb.co/5xYxL8K/blan.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: 100%; 
@@ -113,8 +113,8 @@ h2 {
     background-repeat: no-repeat;
     background-size: 100%; 
     opacity: .8;
-    /* background-image: url("../images/gustavo-espindola-7BG3z3N6zAI-unsplash\ \(1\).jpg"); */
-    /* background-color: antiquewhite; */
+    background-image: url("../images/gustavo-espindola-7BG3z3N6zAI-unsplash\ \(1\).jpg");
+    background-color: antiquewhite;
 }
 
 .miniPic-structure {
@@ -124,21 +124,21 @@ h2 {
     background-size: 100%;
     width: 50%;
     opacity: .8;
-    /* background-color: #375d6f; */
+    background-color: #375d6f;
 }
 
 .miniPic-street {
-    /* background-image: url("../images/GSDone.PNG"); */
+    background-image: url("../images/GSDone.PNG");
     background-position: center;
     background-repeat: no-repeat;
     background-size: 100%;
-    /* background-color: black; */
+    background-color: black;
     width: 50%;
     opacity: .8;
 }
 
 .miniPic-earth {
-    /* background-image: url("https://i.ibb.co/cchJ3tq/clay-banks.jpg"); */
+    background-image: url("https://i.ibb.co/cchJ3tq/clay-banks.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: 100%;
@@ -174,7 +174,7 @@ p {
 }
 
 .prework-container {
-    /* background-image: url("../images/pexels-pixabay-33085.jpg");
+    background-image: url("../images/pexels-pixabay-33085.jpg");
     background-color: rgb(181, 169, 153); */
     background-position: center;
     background-repeat: no-repeat;
@@ -189,7 +189,7 @@ a {
     margin: 40px;
     text-decoration: none;
     font-weight: bold;
-    /* background-color: antiquewhite; */
+    background-color: antiquewhite;
 }
 
 .prework-link-container {
@@ -198,7 +198,7 @@ a {
 }
 
 .contact {
-    /* background-image: url("../images/pavan.jpg"); */
+    background-image: url("../images/pavan.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: 100%; 
